@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CURRICULUM VITAE (CV)</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0f0f0f,#1e1e1e);
+    color:white;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    background:#111;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 30px rgba(0,255,255,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+    letter-spacing:2px;
+}
+
+h2{
+    margin-top:30px;
+    border-bottom:2px solid cyan;
+    padding-bottom:5px;
+}
+
+.section{
+    margin-bottom:20px;
+}
+
+p{
+    margin:5px 0;
+}
+
+.data-grid{
+    display:grid;
+    grid-template-columns: 250px auto;
+    gap:5px 15px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:40px;
+    font-size:14px;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>CURRICULUM VITAE (CV)</h1>
+
+<h2>PERSONAL DATA</h2>
+<div class="section data-grid">
+<p>Name</p><p>Andri Fauzi</p>
+<p>Place & Date of Birth</p><p>Tasikmalaya, 12 Desember 2008</p>
+<p>Gender</p><p>Male</p>
+<p>Religion</p><p>Islam</p>
+<p>Height</p><p>180 cm</p>
+<p>Weight</p><p>54 kg</p>
+<p>Address</p><p>Kp. Sudimara, Sukaresik Village, Sukaresik District, Tasikmalaya Regency, West Java 46159 Indonesia</p>
+<p>Phone Number</p><p>+62 831 8144 9956</p>
+<p>Marital Status</p><p>Not Married</p>
+<p>Nationality</p><p>Indonesia</p>
+<p>Email</p><p>cenaxiter@gmail.com</p>
+<p>Website</p><p>cenaxitervip.netlify.app</p>
+</div>
+
+<h2>EDUCATIONAL BACKGROUND</h2>
+<div class="section">
+<p>2023-2026</p>
+<p>SMKN 1 Sukaresik</p>
+<br>
+<p>2020-2023</p>
+<p>SMPN 1 Sukaresik</p>
+<br>
+<p>2014-2020</p>
+<p>MIN 4 Tasikmalaya</p>
+</div>
+
+<h2>ACADEMIC ACHIEVEMENT</h2>
+<div class="section">
+<p>2025: 1st Place in the Ciamis City Free Fire Tournament.</p>
+</div>
+
+<h2>ABILITIES</h2>
+<div class="section">
+<p>Technology Skill : Designing Website using HTML, Programmer, and Developer</p>
+<p>Language Skill : Indonesia (active) and English (passive).</p>
+<p>Interpersonal Skill : Teamwork, giving direction, leadership, respect, commitment, and enthusiasm.</p>
+</div>
+
+</div>
+
+</body>
+</html>
